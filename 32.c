@@ -14,20 +14,20 @@ int main()
 	switch (operator)
 	{
 		case '+':
-			printf ("%.lf + %.lf = %.lf", firstNumber, 
+			printf ("%.1lf + %.1lf = %.1lf", firstNumber, 
 					secondNumber, firstNumber + secondNumber);
 			break;
 		case '-':
-			printf ("%.lf - %.lf = %.lf", firstNumber, 
+			printf ("%.1lf - %.1lf = %.1lf", firstNumber, 
 					secondNumber, firstNumber - secondNumber);
 			break;
 		case '*':
-			printf ("%.lf * %.lf = %.lf", firstNumber, 
+			printf ("%.1lf * %.1lf = %.1lf", firstNumber, 
 					secondNumber, firstNumber * secondNumber);
 			break;
 		case '/':
 			if (secondNumber != 0)
-				printf ("%.lf / %.lf = %.lf", firstNumber, 
+				printf ("%.1lf / %.1lf = %.1lf", firstNumber, 
 					secondNumber, firstNumber / secondNumber);
 			else printf ("на ноль делить нельзя!");
 			break;
