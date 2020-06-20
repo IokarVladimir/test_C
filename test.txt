@@ -1,0 +1,12 @@
+Введите слова, для завершения ввода нажмите Ctrl + D:
+
+Результат:
+acura
+audi
+bentley
+bmw
+cadillac
+ford
+geely
+mercedes
+toyota
